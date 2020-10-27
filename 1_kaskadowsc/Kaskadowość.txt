@@ -1,0 +1,25 @@
+Kaskadowość
+
+
+Jakiego koloru bedzie  element container i dlaczego ?
+
+
+
+
+_____________________________________________________________
+
+
+Kaskadowość - określa hirerarchuę styli jeśłi dla elementu zaosowano wiecej niż jeden styl
+
+
+Hierarchia od najbardziej ważnych
+
+1) styl wpisany "inline" wpisany w tagu <div style="background-color: crimson"></div>
+2) styl internal  w sekcji <head><style>
+3) style external  z pliku zewnętrznego <link rel="stylesheet" href="style.css">
+4) domyślny styl przeglądarki
+
+
+
+Załamanie zasad kaskadowośći !important
+
