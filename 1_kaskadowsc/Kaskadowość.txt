@@ -9,7 +9,7 @@ Jakiego koloru bedzie  element container i dlaczego ?
 _____________________________________________________________
 
 
-Kaskadowość - określa hirerarchuę styli jeśłi dla elementu zaosowano wiecej niż jeden styl
+Kaskadowość - określa hirerarchuę styli jeśłi dla elementu zastosowano wiecej niż jeden styl
 
 
 Hierarchia od najbardziej ważnych

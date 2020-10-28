@@ -1,0 +1,10 @@
+
+_____________________________________________________________
+
+Secyficzność - Specificity to zasada która określa który selektor ma pierwszeństwo w przypadku,
+ kiedy wiele z nich ustawia te same reguły CSS dla tego samego znacznika HTML.
+
+https://www.youtube.com/watch?v=76LMdEEDCCM&ab_channel=MMCSchool
+
+kalkulator
+https://specificity.keegan.st/
