@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: #dcf5ed;
+    font-size: 145px;
+}
+
+
+.right {
+    width: 2em;
+    height: 2em;
+    background-color: red;
+}
+
+.left {
+    width: 2rem;
+    height: 2rem;
+    background-color: #49dc14;
+}

@@ -1,25 +1,28 @@
-Kaskadowość
 
+Jak powstaje strona :
+1) Przeglądarka zamienia plik html  na Document Object Model(DOM)
+2) Każdy element DOM otrzymuje od przeglądarki listę własciowości.
+Jeśli przegladarka nie dostaje innych wartości przypisuje właściwościom - wartości inicializujące wynikającą ze specyfikacji CSS
+Każda przeglądarka ma wbudowane własne style i może nadpisać style inicizalizujące
 
-Jakiego koloru bedzie  element container i dlaczego ?
-
-
-
-
-_____________________________________________________________
-
-
-Kaskadowość - określa hirerarchuę styli jeśłi dla elementu zastosowano wiecej niż jeden styl
-
-
-Hierarchia od najbardziej ważnych
-
-1) styl wpisany "inline" wpisany w tagu <div style="background-color: crimson"></div>
-2) styl internal  w sekcji <head><style>
-3) style external  z pliku zewnętrznego <link rel="stylesheet" href="style.css">
-4) domyślny styl przeglądarki
+3) Jeżeli twórca dodaje własne style, to są one importowane i uwzgędniane
+4) Renderowanie strony . Przeglądarka ustala na podstawie zasad kaskadowości jak wyrenderować stronę
 
 
 
-Załamanie zasad kaskadowośći !important
+Kaskadowość - określa hirerarchię styli zastosowanych w dokumencie.
+Zasady którymi kieruje sie przeglądarka przy nadawaniu stylu dla konkretnego elementu
+
+
+    Zasada - porządek kaskadowości
+
+    0) Załamanie zasad kaskadowośći !important
+    1) styl wpisany "inline" wpisany w tagu <div style="background-color: crimson"></div>
+    2 i 3 ) styl internal  w sekcji <head><style> lub  style external  z pliku zewnętrznego <link rel="stylesheet" href="style.css">
+    Zalezy który uzytjemy wczesniej a który pożniej
+    4) domyślny styl przeglądarki - wartości inicijalizujące
+
+
+
+
 

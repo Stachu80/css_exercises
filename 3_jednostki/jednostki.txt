@@ -1,0 +1,20 @@
+
+https://www.youtube.com/watch?v=xoUx5sJWw3A&ab_channel=helloroman
+
+PX - jednostka absolutna -najmniejsza jednolity element obrazu wyświetlanego na monitorze
+
+EM  - jednostka względna - jednostka która dziedziczy wartośc po rodzicu. Em zawsze patrzy na
+to jaką wartość font-size(może być dziedziczona dziaku pradziaku itd.)  ma rodzic.
+Jeśli nigdzie nie zdefioniowano wartości font-size to em określany jest na podstawie
+głównego elementu strony ( <html> ) który domyślnie przypisany jest przez przegladarkę
+na 16 px
+
+3 em  bedzie miał wartość 3 * font-size  przypisanyy rodzica
+
+REM - jednostka względna - jednostka która dziedziczy  na podstawie
+głównego elementu strony ( <html> ) który domyślnie przypisany jest przez przegladarkę
+na 16 px . Czyli 3 rem zawsze bedzie 48 px
+
+
+VH - 1 vh to 1/100 wysokości viewport
+VW - 1 vw to 1/100 szerokości viewport
